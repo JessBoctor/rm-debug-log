@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Rimoht Debug Log Plugin
-Plugin URI:  http://rimoht.com/debug-log
+Plugin Name: Debug Log Plugin
+Plugin URI:  https://github.com/JessBoctor/rm-debug-log
 Description: Debug your code using write_log() function
 Version:     0.1
 Author:      Jess Boctor
