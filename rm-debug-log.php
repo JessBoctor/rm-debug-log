@@ -26,7 +26,7 @@ http://www.stumiller.me/sending-output-to-the-wordpress-debug-log/
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 define( 'RM_DEBUG_PLUGIN_PATH', plugin_dir_path( __FILE__ ));
-define( 'RM_DEBUG_LOG_PATH', RM_DEBUG_PLUGIN_PATH . '/rm-debug/' );
+define( 'RM_DEBUG_LOG_PATH', RM_DEBUG_PLUGIN_PATH . '/logs/' );
 
 //See if there is a debug file directory in the uploads directory
 if( !file_exists( RM_DEBUG_LOG_PATH ) ){
